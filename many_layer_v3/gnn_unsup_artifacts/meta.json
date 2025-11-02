@@ -1,0 +1,12 @@
+{
+  "model": "GCN-GAE (pure PyTorch, sparse mm)",
+  "seed": 42,
+  "epochs": 10,
+  "dims": {
+    "node_in": 3,
+    "hidden": 64,
+    "out": 64
+  },
+  "quantile_threshold": 0.98,
+  "combined_with_IF": true
+}
